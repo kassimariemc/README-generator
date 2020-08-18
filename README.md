@@ -1,6 +1,6 @@
 
-  <h1 style="text-align: center"> readme-generator 0.1.0 </h1>
-  <div style="text-align: center">![Badge](https://img.shields.io/badge/license-MIT-green)</div>
+  # readme-generator 0.1.0
+  ![Badge](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
 
@@ -27,7 +27,7 @@
 
   ## License
 
-  Copyright &#169; 2020 [kassimariemc](https://github.com/kassimariemc).<br>
+  Copyright &#169; 2020 [@kassimariemc](https://github.com/kassimariemc).<br>
   This project is [MIT](https://choosealicense.com/licenses/MIT/) licensed.
   
   ## Contributing
@@ -40,7 +40,7 @@
 
   ## Questions
 
-  [Github Profile](https://github.com/kassimariemc)<br>
+  [@kassimariemc](https://github.com/kassimariemc)<br>
   Please email me with any questions! <kassi.mcintosh@gmail.com>
 
   _____________________________________________________
