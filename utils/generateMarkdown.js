@@ -2,12 +2,14 @@
 function generateMarkdown(data) {
   
   return `
-  # ${data.title} ${data.version}
-  ![Badge](https://img.shields.io/badge/license-${data.license}-green)
+  -># ${data.title} ${data.version}<-
+  ->![Badge](https://img.shields.io/badge/license-${data.license}-green)<-
 
   ## Description
 
   ${data.description}
+
+  Deployed Application: [${data.url}](${data.url})
 
   ## Table of Contents
 
@@ -28,7 +30,8 @@ function generateMarkdown(data) {
 
   ## License
 
-  [${data.license}](https://choosealicense.com/licenses/${data.license}/)
+  Copyright &#169; 2020 [${data.username}](https://github.com/${data.username}).
+  This project is [${data.license}](https://choosealicense.com/licenses/${data.license}/) licensed.
   
   ## Contributing
 
@@ -42,6 +45,9 @@ function generateMarkdown(data) {
 
   [Github Profile](https://github.com/${data.username})
   Please email me with any questions! <${data.email}>
+
+  _____________________________________________________
+  > *This README was generated with &hearts; by [readme-generator](https://github.com/kassimariemc/README-generator)*
 
 `;
 }

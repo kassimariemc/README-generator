@@ -8,7 +8,7 @@ const questions = [
     type: 'input',
     name: 'title',
     message: 'What is your project title?',
-    prefix: 'Hi! Welcome to your README generator. Lets get started \n',
+    prefix: 'Hi! Welcome to your README generator. Lets get started!\n',
     default: 'Project Title'
   },
   {
@@ -19,26 +19,26 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'project-url',
+    name: 'url',
     message: 'What is the project URL? (use empty value to skip)',
     default: ''
   },
   {
     type: 'input',
     name: 'description',
-    message: 'Please provide a short description of your project. What was your motivation? Why did you build this project? What problem does it solve? What did you learn? What makes your project stand out? Please provide any screenshots or videos in this format: ![Alt Text](url)',
+    message: 'Please provide a short description of your project. What was your motivation? Why did you build this project? What problem does it solve? What did you learn? What makes your project stand out? Please provide any screenshots or videos in this format: ![Alt Text](url). Please use <br> for any line breaks',
     default: ''
   },
   {
     type: 'input',
     name: 'installation',
-    message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. For any code blocks, please wrap them in backticks: `var example = true`. For bash commands use ```bash message ```',
+    message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. For any code blocks, please wrap them in backticks: `var example = true`. Please use <br> for any line breaks',
     default: ''
   },
   {
     type: 'input',
     name: 'usage',
-    message: 'Provide instructions and examples for use. For any code blocks, please wrap them in backticks: `var example = true`. Please provide any screenshots or videos in this format: ![Alt Text](url)',
+    message: 'Provide instructions and examples for use. For any code blocks, please wrap them in backticks: `var example = true`. Please provide any screenshots or videos in this format: ![Alt Text](url). Please use <br> for any line breaks',
     default: ''
   },
   {
@@ -58,7 +58,7 @@ const questions = [
   {
     type: 'input',
     name: 'tests',
-    message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them.',
+    message: 'Go the extra mile and write tests for your application. Consider providing examples on how to run them.',
     default: ''
   },
   {
