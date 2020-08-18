@@ -2,8 +2,8 @@
 function generateMarkdown(data) {
   
   return `
-  -># ${data.title} ${data.version}<-
-  ->![Badge](https://img.shields.io/badge/license-${data.license}-green)<-
+  <h1 style="text-align: center"> ${data.title} ${data.version} </h1>
+  <div style="text-align: center">![Badge](https://img.shields.io/badge/license-${data.license}-green)</div>
 
   ## Description
 
@@ -30,7 +30,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  Copyright &#169; 2020 [${data.username}](https://github.com/${data.username}).
+  Copyright &#169; 2020 [${data.username}](https://github.com/${data.username}).<br>
   This project is [${data.license}](https://choosealicense.com/licenses/${data.license}/) licensed.
   
   ## Contributing
@@ -43,7 +43,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  [Github Profile](https://github.com/${data.username})
+  [Github Profile](https://github.com/${data.username})<br>
   Please email me with any questions! <${data.email}>
 
   _____________________________________________________

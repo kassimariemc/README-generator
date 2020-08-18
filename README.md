@@ -1,6 +1,6 @@
 
-  -># readme-generator 0.1.0<-
-  ->![Badge](https://img.shields.io/badge/license-MIT-green)<-
+  <h1 style="text-align: center"> readme-generator 0.1.0 </h1>
+  <div style="text-align: center">![Badge](https://img.shields.io/badge/license-MIT-green)</div>
 
   ## Description
 
@@ -19,7 +19,7 @@
   
   ## Installation
 
-  Clone the repo to your local machine using `git@github.com:kassimariemc/README-generator.git`<br>Then <br>`$ npm install`
+  Clone the repo to your local machine using `git@github.com:kassimariemc/README-generator.git`<br>Then `$ npm install`
 
   ## Usage
 
@@ -27,7 +27,7 @@
 
   ## License
 
-  Copyright &#169; 2020 [kassimariemc](https://github.com/kassimariemc).
+  Copyright &#169; 2020 [kassimariemc](https://github.com/kassimariemc).<br>
   This project is [MIT](https://choosealicense.com/licenses/MIT/) licensed.
   
   ## Contributing
@@ -36,11 +36,11 @@
 
   ## Tests
 
-  Please see demo!
+  See demo!
 
   ## Questions
 
-  [Github Profile](https://github.com/kassimariemc)
+  [Github Profile](https://github.com/kassimariemc)<br>
   Please email me with any questions! <kassi.mcintosh@gmail.com>
 
   _____________________________________________________
