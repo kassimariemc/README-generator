@@ -15,7 +15,7 @@
   
   ### Demo
 
-  ![GIF Demo](/images/demo.gif)
+  ![GIF Demo](/images/demo2.gif)
 
   Deployed Application: [https://kassimariemc.github.io/README-generator/](https://kassimariemc.github.io/README-generator/)
 
