@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  
+  const licenseLowerCase = data.license.toLowerCase();
   return `
   # ${data.title} ${data.version}
   ![Badge](https://img.shields.io/badge/license-${data.license}-green)
@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   ## License
 
   Copyright &#169; 2020 [@${data.username}](https://github.com/${data.username}).<br>
-  This project is [${data.license}](https://choosealicense.com/licenses/${data.license}/) licensed.
+  This project is [${data.license}](https://choosealicense.com/licenses/${licenseLowerCase}/) licensed.
   
   ## Contributing
 

@@ -1,5 +1,5 @@
 
-  # readme-generator 0.1.0
+  # Welcome to readme-generator! 0.1.0
   ![Badge](https://img.shields.io/badge/license-MIT-green)
 
   ## Description
@@ -23,12 +23,12 @@
 
   ## Usage
 
-  Just run the following command at the root of the cloned file and answer the questions<br><br>`$ node index.js`<br><br>Your README.md file will now be generated in the same folder. Just copy and paste to your desired project.
+  Just run the following command at the root of the cloned file and answer the questions<br><br>![Terminal View](/images/terminal.png)<br><br>`$ node index.js`<br><br>The original README.md file will now be generated as the README for your personal project. <br><br>![README generated](/images/readme.png)<br><br>Just copy and paste to your desired project.
 
   ## License
 
   Copyright &#169; 2020 [@kassimariemc](https://github.com/kassimariemc).<br>
-  This project is [MIT](https://choosealicense.com/licenses/MIT/) licensed.
+  This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
   
   ## Contributing
 
