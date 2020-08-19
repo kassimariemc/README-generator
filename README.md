@@ -32,7 +32,7 @@
 
   ## Usage
 
-  Just run the following command at the root of the cloned file and answer the questions<br><br>>`$ node index.js`< br><br>![Terminal View](/images/terminal.png)<br><br> The original README.md file will now be generated as the README for your personal project and produce the below. <br><br>![README generated](/images/readme.png)<br><br>Just copy and paste to your desired project.
+  Just run the following command at the root of the cloned file and answer the questions<br><br>`$ node index.js`<br><br>![Terminal View](/images/terminal.png)<br><br> The original README.md file will now be generated as the README for your personal project and produce the below. <br><br>![README generated](/images/readme.png)<br><br>Just copy and paste to your desired project.
 
   ## License
 
