@@ -5,6 +5,15 @@
   ## Description
 
   A CLI to quickly and easily generate a templated README file based on your project item inputs. Now you can focus on the project itself!
+  
+  Technologies used
+  * node.js
+  * npm file system
+  * package.json
+  * template literals
+  * inquirer npm package
+
+  ![Video Demo](/images/video-demo.mp4)
 
   Deployed Application: [https://kassimariemc.github.io/README-generator/](https://kassimariemc.github.io/README-generator/)
 
@@ -23,7 +32,7 @@
 
   ## Usage
 
-  Just run the following command at the root of the cloned file and answer the questions<br><br>![Terminal View](/images/terminal.png)<br><br>`$ node index.js`<br><br>The original README.md file will now be generated as the README for your personal project. <br><br>![README generated](/images/readme.png)<br><br>Just copy and paste to your desired project.
+  Just run the following command at the root of the cloned file and answer the questions<br><br>>`$ node index.js`< br><br>![Terminal View](/images/terminal.png)<br><br> The original README.md file will now be generated as the README for your personal project and produce the below. <br><br>![README generated](/images/readme.png)<br><br>Just copy and paste to your desired project.
 
   ## License
 
